@@ -2,7 +2,7 @@
   <nav class="navbar navbar-light">
     <div class="container">
       <router-link class="navbar-brand" :to="{ name: 'home' }">
-        conduit
+        纳里测试
       </router-link>
       <ul v-if="!isAuthenticated" class="nav navbar-nav pull-xs-right">
         <li class="nav-item">
@@ -12,7 +12,7 @@
             exact
             :to="{ name: 'home' }"
           >
-            Home
+            首页
           </router-link>
         </li>
         <li class="nav-item">
@@ -22,7 +22,7 @@
             exact
             :to="{ name: 'login' }"
           >
-            <i class="ion-compose"></i>Sign in
+            <i class="ion-compose"></i>注册
           </router-link>
         </li>
         <li class="nav-item">
@@ -32,7 +32,7 @@
             exact
             :to="{ name: 'register' }"
           >
-            <i class="ion-compose"></i>Sign up
+            <i class="ion-compose"></i>登陆
           </router-link>
         </li>
       </ul>
@@ -44,7 +44,7 @@
             exact
             :to="{ name: 'home' }"
           >
-            Home
+            首页
           </router-link>
         </li>
         <li class="nav-item">
@@ -53,7 +53,7 @@
             active-class="active"
             :to="{ name: 'article-edit' }"
           >
-            <i class="ion-compose"></i>&nbsp;New Article
+            <i class="ion-compose"></i>&nbsp;写文章
           </router-link>
         </li>
         <li class="nav-item">
@@ -63,7 +63,7 @@
             exact
             :to="{ name: 'settings' }"
           >
-            <i class="ion-gear-a"></i>&nbsp;Settings
+            <i class="ion-gear-a"></i>&nbsp;设置
           </router-link>
         </li>
         <li class="nav-item" v-if="currentUser.username">
