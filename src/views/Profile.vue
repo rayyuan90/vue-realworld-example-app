@@ -50,7 +50,7 @@
                   exact
                   :to="{ name: 'profile' }"
                 >
-                  My Articles
+                  创建的
                 </router-link>
               </li>
               <li class="nav-item">
@@ -60,7 +60,7 @@
                   exact
                   :to="{ name: 'profile-favorites' }"
                 >
-                  Favorited Articles
+                  收藏的
                 </router-link>
               </li>
             </ul>
