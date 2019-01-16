@@ -9,14 +9,14 @@
         <textarea
           class="form-control"
           v-model="comment"
-          placeholder="Write a comment..."
+          placeholder="开始写评论吧"
           rows="3"
         >
         </textarea>
       </div>
       <div class="card-footer">
         <img :src="userImage" class="comment-author-img" />
-        <button class="btn btn-sm btn-primary">Post Comment</button>
+        <button class="btn btn-sm btn-primary">发布评论</button>
       </div>
     </form>
   </div>
