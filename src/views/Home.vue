@@ -2,8 +2,8 @@
   <div class="home-page">
     <div class="banner">
       <div class="container">
-        <h1 class="logo-font">conduit</h1>
-        <p>A place to share your knowledge.</p>
+        <h1 class="logo-font">测试页</h1>
+        <p>测试框架</p>
       </div>
     </div>
     <div class="container page">
@@ -17,7 +17,7 @@
                   class="nav-link"
                   active-class="active"
                 >
-                  Your Feed
+                  我的文章
                 </router-link>
               </li>
               <li class="nav-item">
@@ -27,7 +27,7 @@
                   class="nav-link"
                   active-class="active"
                 >
-                  Global Feed
+                  全部文章
                 </router-link>
               </li>
               <li class="nav-item" v-if="tag">
