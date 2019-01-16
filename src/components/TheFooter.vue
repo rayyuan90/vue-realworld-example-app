@@ -2,12 +2,12 @@
   <footer>
     <div class="container">
       <router-link class="logo-font" :to="{ name: 'home', params: {} }">
-        conduit
+        纳里
       </router-link>
       <span class="attribution">
         An interactive learning project from
         <a rel="noopener noreferrer" target="blank" href="https://thinkster.io"
-          >Thinkster</a
+          >Vue.js</a
         >. Code &amp; design licensed under MIT.
       </span>
     </div>
