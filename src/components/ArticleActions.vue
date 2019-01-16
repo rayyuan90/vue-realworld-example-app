@@ -5,11 +5,11 @@
       class="btn btn-sm btn-outline-secondary"
       :to="{ name: 'article-edit', params: { slug: this.article.slug } }"
     >
-      <i class="ion-edit"></i><span>&nbsp;Edit Article</span>
+      <i class="ion-edit"></i><span>&nbsp;编辑文章</span>
     </router-link>
     <span>&nbsp;&nbsp;</span>
     <button class="btn btn-outline-danger btn-sm" @click="deleteArticle">
-      <i class="ion-trash-a"></i><span>&nbsp;Delete Article</span>
+      <i class="ion-trash-a"></i><span>&nbsp;删除文章</span>
     </button>
   </span>
   <!-- Used in ArticleView when not author -->
@@ -84,7 +84,7 @@ export default {
         await this.$store.dispatch(ARTICLE_DELETE, this.article.slug);
         this.$router.push("/");
       } catch (err) {
-        console.error(err);
+        //console.error(err);
       }
     }
   }
